@@ -5,6 +5,9 @@
  */
 package Assignment2;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -17,12 +20,24 @@ public class Client {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO code application logic here
         System.out.println("Please enter a integer which determines the number of \"sites\".");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int connection = WQUPC.count(n);
-        System.out.println("Final number of connection is:" + connection);
+        try {
+            File file = new File("d:\\Assignment2.txt");
+            FileWriter out = new FileWriter(file, true);
+            
+            for (int i=0;i<20;i++) {
+                int sites = (int) (n+i*50);
+                out.write(sites+ " ");
+                out.write(WQUPC.count(sites) + "\n");
+            }
+            out.close();
+        } catch (IOException o) {
+            o.getStackTrace();
+        }
 
     }
 

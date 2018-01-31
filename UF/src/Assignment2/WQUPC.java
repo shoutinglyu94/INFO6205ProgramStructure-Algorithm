@@ -46,28 +46,26 @@ public class WQUPC {
      */
     public static int count(int n) {
         WQUPC wqupc = new WQUPC(n);
-        int connection = 0;
+        int pairs = 0;
         boolean complete = false;
         while (complete == false) {
             Random chooser = new Random();
             int a = chooser.nextInt(n);
             int b = chooser.nextInt(n);
+            pairs++;
             if (wqupc.connected(a, b)) {
             } else {
                 wqupc.union(a, b);
-                connection++;
-                System.out.println("This piar is:" + a + " " + b);
-                System.out.println("Connection for now is:" + connection);
             }
             complete = true;
-            for (int k = 0; k < n-1; k++) {
-                if(wqupc.find(k)!=wqupc.find(0)){
+            for (int k = 0; k < n - 1; k++) {
+                if (wqupc.find(k) != wqupc.find(0)) {
                     complete = false;
                     break;
                 }
             }
         }
-        return connection;
+        return pairs;
     }
 
     /**
@@ -91,6 +89,7 @@ public class WQUPC {
             p = newp;
         }
         return root;
+
     }
 
     // validate that p is a valid index
@@ -130,7 +129,6 @@ public class WQUPC {
         if (rootP == rootQ) {
             return;
         }
-        // make smaller root point to larger one
         if (size[rootP] < size[rootQ]) {
             parent[rootP] = rootQ;
             size[rootQ] += size[rootP];
@@ -138,7 +136,7 @@ public class WQUPC {
             parent[rootQ] = rootP;
             size[rootP] += size[rootQ];
         }
-        count--;
+
     }
 
 }
