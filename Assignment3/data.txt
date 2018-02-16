@@ -1,0 +1,56 @@
+No shuffle:
+InsertionSort: 7151.0 nanoseconds for n=100
+SelectionSort: 47068.0 nanoseconds for n=100
+InsertionSort: 2921.0 nanoseconds for n=200
+SelectionSort: 162428.0 nanoseconds for n=200
+InsertionSort: 4861.0 nanoseconds for n=400
+SelectionSort: 51732.0 nanoseconds for n=400
+InsertionSort: 1673.0 nanoseconds for n=800
+SelectionSort: 191751.0 nanoseconds for n=800
+InsertionSort: 2279.0 nanoseconds for n=1600
+SelectionSort: 796629.0 nanoseconds for n=1600
+InsertionSort: 4664.0 nanoseconds for n=3200
+SelectionSort: 3156477.0 nanoseconds for n=3200
+
+random shuffle:
+InsertionSort: 72653.0 nanoseconds for n=100
+SelectionSort: 60473.0 nanoseconds for n=100
+InsertionSort: 71278.0 nanoseconds for n=200
+SelectionSort: 109667.0 nanoseconds for n=200
+InsertionSort: 222398.0 nanoseconds for n=400
+SelectionSort: 330013.0 nanoseconds for n=400
+InsertionSort: 718790.0 nanoseconds for n=800
+SelectionSort: 1259208.0 nanoseconds for n=800
+InsertionSort: 2836626.0 nanoseconds for n=1600
+SelectionSort: 4712875.0 nanoseconds for n=1600
+InsertionSort: 1.050441E7 nanoseconds for n=3200
+SelectionSort: 1.8328007E7 nanoseconds for n=3200
+
+reverse shuffle:
+InsertionSort: 74743.0 nanoseconds for n=100
+SelectionSort: 47804.0 nanoseconds for n=100
+InsertionSort: 80592.0 nanoseconds for n=200
+SelectionSort: 88075.0 nanoseconds for n=200
+InsertionSort: 327708.0 nanoseconds for n=400
+SelectionSort: 293272.0 nanoseconds for n=400
+InsertionSort: 1135238.0 nanoseconds for n=800
+SelectionSort: 1142900.0 nanoseconds for n=800
+InsertionSort: 4516255.0 nanoseconds for n=1600
+SelectionSort: 5009849.0 nanoseconds for n=1600
+InsertionSort: 1.8025858E7 nanoseconds for n=3200
+SelectionSort: 1.8463512E7 nanoseconds for n=3200
+1.802e7
+partialshuffle:
+InsertionSort: 42513.0 nanoseconds for n=100
+SelectionSort: 58165.0 nanoseconds for n=100
+InsertionSort: 44190.0 nanoseconds for n=200
+SelectionSort: 122037.0 nanoseconds for n=200
+InsertionSort: 59911.0 nanoseconds for n=400
+SelectionSort: 325878.0 nanoseconds for n=400
+InsertionSort: 193757.0 nanoseconds for n=800
+SelectionSort: 1569256.0 nanoseconds for n=800
+InsertionSort: 697996.0 nanoseconds for n=1600
+SelectionSort: 4655228.0 nanoseconds for n=1600
+InsertionSort: 3025614.0 nanoseconds for n=3200
+SelectionSort: 1.8197841E7 nanoseconds for n=3200
+
