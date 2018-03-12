@@ -8,33 +8,35 @@ class ParSort {
 
     public static int cutoff;
 
-    public static void getAverageRuntime(int cutoff_test) {
+    public long getAverageRuntime(int cutoff_test) {
         cutoff = cutoff_test;
-        System.out.println("Optimal Cutoff: " + cutoff);
+        System.out.println("Cutoff: " + cutoff);
         long[] time = new long[100];
+        Random random = new Random(0L);
+        int[] array = new int[2000];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(10000);
+        }
         for (int k = 0; k < 100; k++) {
-            Random random = new Random(0L);
-            int[] array = new int[2000];
-            for (int i = 0; i < array.length; i++) {
-                array[i] = random.nextInt(10000);
-            }
+            randomShuffle(array, 0, array.length);
             long startTime = System.nanoTime();
             sort(array, 0, array.length - 1);
             long finishTime = System.nanoTime();
             time[k] = finishTime - startTime;
         }
-        long total = 0;
+        long total = 0L;
         for (long timeitem : time) {
             total = total + timeitem;
         }
-        long average = total / 100;
+        long average = total / 100L;
         System.out.println("Average Time= " + average);
+        return average;
     }
 
     public static void sort(int[] array, int from, int to) {
         int size = to - from;
         if (size < cutoff) {
-            Arrays.sort(array, from, to+1);
+            Arrays.sort(array, from, to + 1);
         } else {
             int pivot = partition(array, from, to);
             //in case pivot is from or to
@@ -42,7 +44,6 @@ class ParSort {
                 randomShuffle(array, from, to);
                 pivot = partition(array, from, to);
             }
-
             CompletableFuture<int[]> parsort1 = parsort(array, from, pivot - 1); // TODO implement me
             CompletableFuture<int[]> parsort2 = parsort(array, pivot + 1, to); // TODO implement me
             CompletableFuture<int[]> parsort = parsort1.
@@ -65,19 +66,17 @@ class ParSort {
     private static CompletableFuture<int[]> parsort(int[] array, int from, int to) {
         return CompletableFuture.supplyAsync(
                 () -> {
-                    //System.out.println("Sort from " + from + " to " + to);
                     int[] result = new int[to - from + 1];
                     System.arraycopy(array, from, result, 0, result.length);
-                    sort(result, 0, result.length-1);
+                    sort(result, 0, result.length - 1);
                     return result;
                 }
         );
     }
 
-
     private static int partition(int[] xs, int lo, int hi) {
         int i = lo;
-        int j = hi+1;
+        int j = hi + 1;
         while (true) {
             while (less(xs[++i], xs[lo])) {
                 if (i == hi) {
