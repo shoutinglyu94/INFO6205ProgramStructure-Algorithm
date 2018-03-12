@@ -32,7 +32,9 @@ public class Client {
             for (int i=0;i<20;i++) {
                 int sites = (int) (n+i*50);
                 out.write(sites+ " ");
-                out.write(WQUPC.count(sites) + "\n");
+                out.write(WQUPC.count(sites) +" ");
+                out.write(QuickFind.count(sites) + "\n");
+//                out.write(QuickUnion.count(sites) + "\n");
             }
             out.close();
         } catch (IOException o) {
