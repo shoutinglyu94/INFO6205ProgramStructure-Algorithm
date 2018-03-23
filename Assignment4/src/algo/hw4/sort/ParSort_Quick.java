@@ -1,23 +1,25 @@
-package com.hw4.main;
+package algo.hw4.sort;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
-
-class ParSort {
+/**
+ *
+ * @author lvsho,liuch
+ */
+public class ParSort_Quick {
 
     public static int cutoff;
 
     public long getAverageRuntime(int cutoff_test) {
         cutoff = cutoff_test;
-        System.out.println("Cutoff: " + cutoff);
         long[] time = new long[100];
+        int[] array = new int[2000000];
         Random random = new Random(0L);
-        int[] array = new int[2000];
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10000);
         }
-        for (int k = 0; k < 100; k++) {
+        for (int k = 0; k < 50; k++) {
             randomShuffle(array, 0, array.length);
             long startTime = System.nanoTime();
             sort(array, 0, array.length - 1);
@@ -28,8 +30,8 @@ class ParSort {
         for (long timeitem : time) {
             total = total + timeitem;
         }
-        long average = total / 100L;
-        System.out.println("Average Time= " + average);
+        long average = total / 50L;
+        //System.out.println("Average Time= " + average);
         return average;
     }
 
