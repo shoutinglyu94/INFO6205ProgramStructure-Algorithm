@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Lin",
+				"LinkedList"
+			],
+			[
+				"Linke",
+				"Stack_LinkedList"
+			],
+			[
+				"th",
+				"throws"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"roel",
+				"roles"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"role",
+				"rolename"
+			],
+			[
+				"tom",
+				"tomcat-users"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"pre",
+				"previous"
+			],
+			[
+				"Http",
+				"HttpSession"
+			],
+			[
+				"ans",
+				"ans1"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"Ser",
+				"serletException"
+			],
+			[
+				"servlet",
+				"servlet-class"
+			],
+			[
+				"serv",
+				"servlet-name"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"border-co",
+				"border-collapse"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"HttpServletR",
+				"HttpServletResponse"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"rad",
+				"radClass"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/lvsho/OneDrive/桌面/Algorithm/quiz/quiz2/src/quiz2/Tuple.java",
+		"/C/Users/lvsho/OneDrive/桌面/Algorithm/quiz/quiz2/src/quiz2/Student.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/webtoolHW2_part7/src/HW2/ShoppingController.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/webtoolHW2_part7/WebContent/showProduct.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/webtoolHW2_part7/src/Bean/Product.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW3/Lab3_Redo/src/com/lab3/servlet/CourseController.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW3/Lab3_Redo/src/com/lab3/servlet/LoginServlet.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW3/Lab3_Redo/src/com/lab3/bean/Course.java",
+		"/D/WebTool/LAB4/web/WEB-INF/dispatcher-servlet.xml",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW3/Lab3_Redo/WebContent/index.jsp",
+		"/D/INFO6205Repo/src/main/java/edu/neu/coe/info6205/MyDate.java",
+		"/C/Users/lvsho/Documents/WebTool_repo/Assignment2/Part5/Part5.java",
+		"/C/Users/lvsho/Documents/WebTool_repo/Assignment2/Part4.java",
+		"/C/Users/lvsho/Documents/WebTool_repo/Assignment2/Part3.jsp",
+		"/D/WebTool/LAB4/web/WEB-INF/web.xml",
+		"/D/WebTool/LAB4/web/WEB-INF/jsp/index.jsp",
+		"/D/WebTool/LAB4/src/java/com/me/controllers/UserController.java",
+		"/D/WebTool/LAB4/web/WEB-INF/jsp/userview.jsp",
+		"/C/Users/lvsho/eclipse-workspace/Lab3_BeanScriptletDemo/BeanScriptletDemo/web/WEB-INF/views/userview.jsp",
+		"/D/WebTool/LAB4/web/redirect.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/web.xml",
+		"/D/WebTool/JSTLPractice/web/WEB-INF/index.jsp",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/conf/tomcat-users.xml",
+		"/C/Users/lvsho/OneDrive/桌面/InsertionSortTest.java",
+		"/C/Users/lvsho/OneDrive/桌面/SelectionSortTest.java",
+		"/C/Users/lvsho/OneDrive/桌面/Benchmark.java",
+		"/C/Users/lvsho/OneDrive/桌面/Algorithm/Assignment1/RandomWalk.java",
+		"/C/Users/lvsho/OneDrive/桌面/Algorithm/Assignment1/RandomWalkTest.java",
+		"/C/Users/lvsho/OneDrive/桌面/PrivateMethodTester.java",
+		"/D/INFO6205Repo/src/test/java/edu/neu/coe/info6205/ComparableTupleTest.java",
+		"/D/INFO6205Repo/src/main/java/edu/neu/coe/info6205/balsearchtree/TwoFourTree.java",
+		"/C/Users/lvsho/AppData/Local/Temp/360zip$Temp/360$0/LoginServlet.java",
+		"/C/Users/lvsho/AppData/Local/Temp/360zip$Temp/360$0/mycourses.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/Part3.jsp",
+		"/D/INFO6205Repo/src/main/java/edu/neu/coe/info6205/ComparableTuple.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/Part2.java",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/Part5/index.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/Part4.java",
+		"/C/Users/lvsho/OneDrive/桌面/Lab3_Student/web.xml",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/Part6/index.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/WebTool/HW2/index.jsp",
+		"/C/Users/lvsho/eclipse-workspace/WebToolHW2_part4/src/HW2/Part4.java",
+		"/C/Users/lvsho/OneDrive/桌面/tomcat-users.xml",
+		"/D/WebTool/Lab3_Student/build/web/WEB-INF/web.xml",
+		"/D/WebTool/Lab3_Student/build.xml",
+		"/D/WebTool/Lab3_Student/Lab3_Student/web/WEB-INF/web.xml",
+		"/D/WebToolHomework/lab2/WEB-INF/classes/QuizServlet1.java",
+		"/D/WebToolHomework/Assignment1/petitionform.html",
+		"/C/Users/lvsho/eclipse-workspace/WebToolHW2_part4/WebContent/form.jsp.html",
+		"/D/WebToolHomework/Assignment1/form.jsp.html",
+		"/C/Users/lvsho/OneDrive/桌面/server.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/manager/xform.xsl",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/conf/server.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/manager/META-INF/context.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/manager/index.jsp",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/conf/web.xml",
+		"/C/Users/lvsho/OneDrive/桌面/a.xml",
+		"/D/INFO6205Repo/src/main/java/edu/neu/coe/info6205/union_find/WQUPC.java",
+		"/D/INFO6205Repo/src/main/java/edu/neu/coe/info6205/union_find/HWQUPC.java",
+		"/C/Users/lvsho/OneDrive/桌面/index2.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/index0.html",
+		"/C/Users/lvsho/OneDrive/桌面/index.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/index",
+		"/C/Users/lvsho/OneDrive/桌面/index0",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/lab2/WEB-INF/classes/QuizServlet1.java",
+		"/C/Users/lvsho/OneDrive/桌面/HWQUPC.java",
+		"/C/Users/lvsho/OneDrive/桌面/coursera_html/coursera_html1.html",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/quiz/WEB-INF/web.xml",
+		"/D/QuizServlet1.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/lab2/WEB-INF/web.xml",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/quiz/WEB-INF/classes/ResultServlet.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/quiz/WEB-INF/classes/QuizServlet1.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/quiz/index.html",
+		"/D/QuizServlet2.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/lab/WEB-INF/web.xml",
+		"/C/Users/lvsho/OneDrive/桌面/WQUPC.java",
+		"/C/Users/lvsho/OneDrive/桌面/coursera_html1.html",
+		"/C/Users/lvsho/OneDrive/桌面/jspTest.jsp",
+		"/C/Users/lvsho/OneDrive/桌面/page.jsp.txt",
+		"/C/Program Files/Apache Software Foundation/Tomcat 8.5/webapps/lab/WEB-INF/classes/DisplayFormData.java",
+		"/D/DisplayFormData.java",
+		"/D/Algorithm/Bag.java",
+		"/D/Algorithm/Bag_Array.java",
+		"/D/WebToolHomework/petitionform.html",
+		"/C/Users/lvsho/OneDrive/桌面/web.xml",
+		"/C/Users/lvsho/OneDrive/桌面/DisplayFormData.java",
+		"/D/Result.txt",
+		"/C/Users/lvsho/OneDrive/桌面/helloServlet.java",
+		"/C/Program Files/Apache Software Foundation/Tomcat 9.0/conf/server.xml",
+		"/D/WebToolHomework/ex1.html",
+		"/C/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/myapp/WEB-INF/web.xml.txt",
+		"/D/WebToolHomework/sol4/TryPhoneBook.java",
+		"/D/WebToolHomework/sol4/PhoneBook.java",
+		"/D/WebToolHomework/sol4/BookEntry.java",
+		"/D/WebToolHomework/sol3/PhoneBook.java",
+		"/D/WebToolHomework/sol3/PhoneNumber.java",
+		"/D/WebToolHomework/sol3/FormattedInput.java",
+		"/D/WebToolHomework/BeginningJava7/Book_Solutions/ch14/TryPhoneBook 2/TryPhoneBook2.java",
+		"/D/WebToolHomework/TryPhoneBook 1/TryPhoneBook.java",
+		"/D/WebToolHomework/sol3/TryPhoneBook2.java",
+		"/D/WebToolHomework/BeginningJava7/Exercise_Solutions/404140 Exercise Solutions/ch14/sol2/DealCards.java",
+		"/D/BeginningJava7/Book_Solutions/ch03/Primes4.java",
+		"/D/BeginningJava7/Book_Solutions/ch03/Primes3.java",
+		"/D/BeginningJava7/Book_Solutions/ch03/Primes2.java",
+		"/D/BeginningJava7/Book_Solutions/ch03/Primes.java",
+		"/C/Users/lvsho/OneDrive/桌面/homework1/primeNumber.java",
+		"/D/BeginningJava7/Book_Solutions/ch04/MorePrimes.java",
+		"/C/Users/lvsho/Documents/BeginningJava7/Book_Solutions/ch14/TryVector/TryVector.java",
+		"/C/Users/lvsho/Documents/BeginningJava7/Book_Solutions/ch14/TryVector/TryVector.class",
+		"/C/Users/lvsho/OneDrive/桌面/homework1/404140 Code from the book/ch14/TryVector/TryVector.java",
+		"/C/Users/lvsho/OneDrive/桌面/homework1/404140 Code from the book/ch14/TryVector/Person.java",
+		"/C/Users/lvsho/OneDrive/桌面/homework1/ex2.html",
+		"/C/Users/lvsho/OneDrive/桌面/homework1/ex1.html",
+		"/C/Users/lvsho/OneDrive/桌面/ex1.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "LinkedList.sublime-project",
+	"replace":
+	{
+		"height": 63.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
